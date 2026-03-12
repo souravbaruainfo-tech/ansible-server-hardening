@@ -1,0 +1,23 @@
+Port 22
+ListenAddress 0.0.0.0
+
+HostKey /etc/ssh/ssh_host_rsa_key
+HostKey /etc/ssh/ssh_host_ed25519_key
+
+PermitRootLogin no
+PasswordAuthentication no
+PubkeyAuthentication yes
+
+UsePAM yes
+
+ClientAliveInterval 300    # Every 300 seconds send a "packet" to check if client is still there. Clean Up dead connections. Prevent SSH from hanging.
+
+ClientAliveCountMax 2     # Send 2 packets and get no response, diconnect.
+
+SyslogFacility AUTH       # Put SSH activity in the AUTH log file. e.g. /var/log/auth.log or, /var/log/secure
+
+LogLevel VERBOSE          # Detailed logs.
+
+X11Forwarding no          # No GUI, just CLI SSH.
+
+Subsystem sftp /usr/lib/openssh/sftp-server   # Allows Secure File Transfer

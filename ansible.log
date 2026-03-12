@@ -1,0 +1,464 @@
+2026-03-10 23:41:03,845 p=2491 u=oracle n=ansible | [WARNING]:  * Failed to parse /home/devops/Server_Hardening_Pipeline/inventory/hosts.yml with auto plugin: We were unable to
+read either as JSON nor YAML, these are the errors we got from each: JSON: Expecting value: line 1 column 1 (char 0)  Syntax
+Error while loading YAML.   did not find expected <document start>  The error appears to be in
+'/home/devops/Server_Hardening_Pipeline/inventory/hosts.yml': line 8, column 1, but may be elsewhere in the file depending
+on the exact syntax problem.  The offending line appears to be:  #RedHat-based systems [RHEL] ^ here
+
+2026-03-10 23:41:03,848 p=2491 u=oracle n=ansible | [WARNING]:  * Failed to parse /home/devops/Server_Hardening_Pipeline/inventory/hosts.yml with yaml plugin: We were unable to
+read either as JSON nor YAML, these are the errors we got from each: JSON: Expecting value: line 1 column 1 (char 0)  Syntax
+Error while loading YAML.   did not find expected <document start>  The error appears to be in
+'/home/devops/Server_Hardening_Pipeline/inventory/hosts.yml': line 8, column 1, but may be elsewhere in the file depending
+on the exact syntax problem.  The offending line appears to be:  #RedHat-based systems [RHEL] ^ here
+
+2026-03-10 23:41:03,849 p=2491 u=oracle n=ansible | [WARNING]:  * Failed to parse /home/devops/Server_Hardening_Pipeline/inventory/hosts.yml with ini plugin:
+/home/devops/Server_Hardening_Pipeline/inventory/hosts.yml:2: Expected key=value host variable assignment, got: oracle
+
+2026-03-10 23:41:03,850 p=2491 u=oracle n=ansible | [WARNING]: Unable to parse /home/devops/Server_Hardening_Pipeline/inventory/hosts.yml as an inventory source
+
+2026-03-10 23:41:03,851 p=2491 u=oracle n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2026-03-10 23:41:03,870 p=2491 u=oracle n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2026-03-11 13:16:33,124 p=2748 u=oracle n=ansible | [WARNING]:  * Failed to parse /home/devops/Server_Hardening_Pipeline/inventory/hosts.yml with auto plugin: We were unable to
+read either as JSON nor YAML, these are the errors we got from each: JSON: Expecting value: line 1 column 1 (char 0)  Syntax
+Error while loading YAML.   did not find expected <document start>  The error appears to be in
+'/home/devops/Server_Hardening_Pipeline/inventory/hosts.yml': line 8, column 1, but may be elsewhere in the file depending
+on the exact syntax problem.  The offending line appears to be:  #RedHat-based systems [RHEL] ^ here
+
+2026-03-11 13:16:33,126 p=2748 u=oracle n=ansible | [WARNING]:  * Failed to parse /home/devops/Server_Hardening_Pipeline/inventory/hosts.yml with yaml plugin: We were unable to
+read either as JSON nor YAML, these are the errors we got from each: JSON: Expecting value: line 1 column 1 (char 0)  Syntax
+Error while loading YAML.   did not find expected <document start>  The error appears to be in
+'/home/devops/Server_Hardening_Pipeline/inventory/hosts.yml': line 8, column 1, but may be elsewhere in the file depending
+on the exact syntax problem.  The offending line appears to be:  #RedHat-based systems [RHEL] ^ here
+
+2026-03-11 13:16:33,129 p=2748 u=oracle n=ansible | [WARNING]:  * Failed to parse /home/devops/Server_Hardening_Pipeline/inventory/hosts.yml with ini plugin:
+/home/devops/Server_Hardening_Pipeline/inventory/hosts.yml:2: Expected key=value host variable assignment, got: oracle
+
+2026-03-11 13:16:33,130 p=2748 u=oracle n=ansible | [WARNING]: Unable to parse /home/devops/Server_Hardening_Pipeline/inventory/hosts.yml as an inventory source
+
+2026-03-11 13:16:33,130 p=2748 u=oracle n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2026-03-11 13:16:33,153 p=2748 u=oracle n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2026-03-11 13:18:21,328 p=2769 u=oracle n=ansible | [WARNING]:  * Failed to parse /home/devops/Server_Hardening_Pipeline/inventory/hosts.yml with auto plugin: We were unable to
+read either as JSON nor YAML, these are the errors we got from each: JSON: Expecting value: line 1 column 1 (char 0)  Syntax
+Error while loading YAML.   did not find expected <document start>  The error appears to be in
+'/home/devops/Server_Hardening_Pipeline/inventory/hosts.yml': line 8, column 1, but may be elsewhere in the file depending
+on the exact syntax problem.  The offending line appears to be:  #RedHat-based systems [RHEL] ^ here
+
+2026-03-11 13:18:21,329 p=2769 u=oracle n=ansible | [WARNING]:  * Failed to parse /home/devops/Server_Hardening_Pipeline/inventory/hosts.yml with yaml plugin: We were unable to
+read either as JSON nor YAML, these are the errors we got from each: JSON: Expecting value: line 1 column 1 (char 0)  Syntax
+Error while loading YAML.   did not find expected <document start>  The error appears to be in
+'/home/devops/Server_Hardening_Pipeline/inventory/hosts.yml': line 8, column 1, but may be elsewhere in the file depending
+on the exact syntax problem.  The offending line appears to be:  #RedHat-based systems [RHEL] ^ here
+
+2026-03-11 13:18:21,330 p=2769 u=oracle n=ansible | [WARNING]:  * Failed to parse /home/devops/Server_Hardening_Pipeline/inventory/hosts.yml with ini plugin:
+/home/devops/Server_Hardening_Pipeline/inventory/hosts.yml:2: Expected key=value host variable assignment, got: oracle
+
+2026-03-11 13:18:21,330 p=2769 u=oracle n=ansible | [WARNING]: Unable to parse /home/devops/Server_Hardening_Pipeline/inventory/hosts.yml as an inventory source
+
+2026-03-11 13:18:21,331 p=2769 u=oracle n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2026-03-11 13:18:21,346 p=2769 u=oracle n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2026-03-11 13:18:21,347 p=2769 u=oracle n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: RHEL
+
+2026-03-11 13:22:15,928 p=2783 u=oracle n=ansible | redhat1.lab | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2026-03-11 13:22:28,777 p=2804 u=oracle n=ansible | ansible_user=oracle | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: Could not resolve hostname ansible_user=oracle: Name or service not known",
+    "unreachable": true
+}
+2026-03-11 13:22:29,025 p=2804 u=oracle n=ansible | ansible_connection=ssh | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: Could not resolve hostname ansible_connection=ssh: Name or service not known",
+    "unreachable": true
+}
+2026-03-11 13:22:29,033 p=2804 u=oracle n=ansible | ansible_ssh_private_key_fil=~/.ssh/id_rsa | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: Could not resolve hostname ansible_ssh_private_key_fil=~/.ssh/id_rsa: Name or service not known",
+    "unreachable": true
+}
+2026-03-11 13:22:29,072 p=2804 u=oracle n=ansible | ansible_port=22 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: Could not resolve hostname ansible_port=22: Name or service not known",
+    "unreachable": true
+}
+2026-03-11 13:22:31,533 p=2804 u=oracle n=ansible | [WARNING]: Distribution parrot 5.3 on host debian1.lab should use /usr/bin/python, but is using /usr/bin/python3.9, since
+the discovered platform python interpreter was not present. See https://docs.ansible.com/ansible-
+core/2.14/reference_appendices/interpreter_discovery.html for more information.
+
+2026-03-11 13:22:31,535 p=2804 u=oracle n=ansible | debian1.lab | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.9"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2026-03-11 13:22:32,777 p=2804 u=oracle n=ansible | redhat1.lab | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2026-03-11 13:24:09,121 p=2849 u=oracle n=ansible | [WARNING]: Distribution parrot 5.3 on host debian1.lab should use /usr/bin/python, but is using /usr/bin/python3.9, since
+the discovered platform python interpreter was not present. See https://docs.ansible.com/ansible-
+core/2.14/reference_appendices/interpreter_discovery.html for more information.
+
+2026-03-11 13:24:09,124 p=2849 u=oracle n=ansible | debian1.lab | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.9"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2026-03-11 13:24:10,283 p=2849 u=oracle n=ansible | redhat1.lab | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2026-03-11 13:25:48,063 p=2904 u=oracle n=ansible | ERROR! the playbook: playbooks/site.yml could not be found
+2026-03-11 13:46:03,412 p=2931 u=oracle n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  could not find expected ':'
+
+The error appears to be in '/home/devops/Server_Hardening_Pipeline/playbooks/site.yml': line 10, column 1, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+       tags: ['ssh_hardening']
+~
+^ here
+
+2026-03-11 13:48:47,451 p=2957 u=oracle n=ansible | ERROR! the role 'ssh_hardening' was not found in /home/devops/Server_Hardening_Pipeline/playbooks/roles:/home/oracle/.ansible/roles:/usr/share/ansible/roles:/etc/ansible/roles:/home/devops/Server_Hardening_Pipeline/playbooks
+
+The error appears to be in '/home/devops/Server_Hardening_Pipeline/playbooks/site.yml': line 6, column 8, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  roles:
+     - role: ssh_hardening
+       ^ here
+
+2026-03-11 13:49:21,361 p=2962 u=oracle n=ansible | ERROR! the role 'ssh_hardening' was not found in /home/devops/Server_Hardening_Pipeline/playbooks/roles:/home/oracle/.ansible/roles:/usr/share/ansible/roles:/etc/ansible/roles:/home/devops/Server_Hardening_Pipeline/playbooks
+
+The error appears to be in '/home/devops/Server_Hardening_Pipeline/playbooks/site.yml': line 6, column 8, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  roles:
+     - ssh_hardening
+       ^ here
+
+2026-03-11 13:50:02,811 p=2966 u=oracle n=ansible | ERROR! the role 'ssh_hardening' was not found in /home/devops/Server_Hardening_Pipeline/playbooks/roles:/home/oracle/.ansible/roles:/usr/share/ansible/roles:/etc/ansible/roles:/home/devops/Server_Hardening_Pipeline/playbooks
+
+The error appears to be in '/home/devops/Server_Hardening_Pipeline/playbooks/site.yml': line 7, column 8, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  roles:
+     - ssh_hardening
+       ^ here
+
+2026-03-11 14:16:54,906 p=3056 u=oracle n=ansible | ERROR! the role 'ssh_hardening' was not found in /home/devops/Server_Hardening_Pipeline/playbooks/roles:/home/oracle/.ansible/roles:/usr/share/ansible/roles:/etc/ansible/roles:/home/devops/Server_Hardening_Pipeline/playbooks
+
+The error appears to be in '/home/devops/Server_Hardening_Pipeline/playbooks/site.yml': line 7, column 8, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  roles:
+     - ssh_hardening
+       ^ here
+
+2026-03-11 15:21:56,863 p=3166 u=oracle n=ansible | ERROR! the role 'ssh_hardening' was not found in /home/devops/Server_Hardening_Pipeline/playbooks/roles:/home/oracle/.ansible/roles:/usr/share/ansible/roles:/etc/ansible/roles:/home/devops/Server_Hardening_Pipeline/playbooks
+
+The error appears to be in '/home/devops/Server_Hardening_Pipeline/playbooks/site.yml': line 7, column 8, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  roles:
+     - ssh_hardening
+       ^ here
+
+2026-03-11 16:46:22,898 p=3233 u=oracle n=ansible | ERROR! the role 'ssh_hardening' was not found in /home/devops/Server_Hardening_Pipeline/playbooks/roles:/home/oracle/.ansible/roles:/usr/share/ansible/roles:/etc/ansible/roles:/home/devops/Server_Hardening_Pipeline/playbooks
+
+The error appears to be in '/home/devops/Server_Hardening_Pipeline/playbooks/site.yml': line 7, column 8, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  roles:
+     - ssh_hardening
+       ^ here
+
+2026-03-11 16:46:37,878 p=3236 u=oracle n=ansible | ERROR! the role 'ssh_hardening' was not found in /home/devops/Server_Hardening_Pipeline/playbooks/roles:/home/oracle/.ansible/roles:/usr/share/ansible/roles:/etc/ansible/roles:/home/devops/Server_Hardening_Pipeline/playbooks
+
+The error appears to be in '/home/devops/Server_Hardening_Pipeline/playbooks/site.yml': line 7, column 8, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  roles:
+     - ssh_hardening
+       ^ here
+
+2026-03-11 16:47:30,912 p=3240 u=oracle n=ansible | PLAY [Automated Linux Server Hardening Pipeline] ****************************************************************************
+2026-03-11 16:47:30,964 p=3240 u=oracle n=ansible | TASK [Gathering Facts] ******************************************************************************************************
+2026-03-11 16:47:36,515 p=3240 u=oracle n=ansible | [WARNING]: Distribution parrot 5.3 on host debian1.lab should use /usr/bin/python, but is using /usr/bin/python3.9, since
+the discovered platform python interpreter was not present. See https://docs.ansible.com/ansible-
+core/2.14/reference_appendices/interpreter_discovery.html for more information.
+
+2026-03-11 16:47:36,517 p=3240 u=oracle n=ansible | ok: [debian1.lab]
+2026-03-11 16:47:38,285 p=3240 u=oracle n=ansible | ok: [redhat1.lab]
+2026-03-11 16:47:38,393 p=3240 u=oracle n=ansible | TASK [ssh_hardening : Ensure OpenSSH server is installed] *******************************************************************
+2026-03-11 16:47:42,592 p=3240 u=oracle n=ansible | ok: [debian1.lab]
+2026-03-11 16:47:46,619 p=3240 u=oracle n=ansible | fatal: [redhat1.lab]: FAILED! => {"changed": false, "msg": "Failed to download metadata for repo 'BaseOS': Cannot download repomd.xml: Cannot download repodata/repomd.xml: All mirrors were tried", "rc": 1, "results": []}
+2026-03-11 16:47:46,657 p=3240 u=oracle n=ansible | TASK [ssh_hardening : Create sshd_config backup] ****************************************************************************
+2026-03-11 16:47:48,422 p=3240 u=oracle n=ansible | changed: [debian1.lab]
+2026-03-11 16:47:48,454 p=3240 u=oracle n=ansible | TASK [ssh_hardening : Configure SSH daemon] *********************************************************************************
+2026-03-11 16:47:50,370 p=3240 u=oracle n=ansible | changed: [debian1.lab]
+2026-03-11 16:47:50,395 p=3240 u=oracle n=ansible | TASK [ssh_hardening : Ensure SSH service is running] ************************************************************************
+2026-03-11 16:47:53,617 p=3240 u=oracle n=ansible | ok: [debian1.lab]
+2026-03-11 16:47:53,715 p=3240 u=oracle n=ansible | RUNNING HANDLER [ssh_hardening : Restart SSH service] ***********************************************************************
+2026-03-11 16:47:55,900 p=3240 u=oracle n=ansible | changed: [debian1.lab]
+2026-03-11 16:47:55,948 p=3240 u=oracle n=ansible | PLAY RECAP ******************************************************************************************************************
+2026-03-11 16:47:55,949 p=3240 u=oracle n=ansible | debian1.lab                : ok=6    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-03-11 16:47:55,950 p=3240 u=oracle n=ansible | redhat1.lab                : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-03-11 16:56:38,095 p=3338 u=oracle n=ansible |  [ERROR]: User interrupted execution
+
+2026-03-11 16:56:43,594 p=3341 u=oracle n=ansible | PLAY [Automated Linux Server Hardening Pipeline] ****************************************************************************
+2026-03-11 16:56:43,637 p=3341 u=oracle n=ansible | TASK [Gathering Facts] ******************************************************************************************************
+2026-03-11 16:56:48,884 p=3341 u=oracle n=ansible | [WARNING]: Distribution parrot 5.3 on host debian1.lab should use /usr/bin/python, but is using /usr/bin/python3.9, since
+the discovered platform python interpreter was not present. See https://docs.ansible.com/ansible-
+core/2.14/reference_appendices/interpreter_discovery.html for more information.
+
+2026-03-11 16:56:48,886 p=3341 u=oracle n=ansible | ok: [debian1.lab]
+2026-03-11 16:56:50,301 p=3341 u=oracle n=ansible | ok: [redhat1.lab]
+2026-03-11 16:56:50,402 p=3341 u=oracle n=ansible | TASK [ssh_hardening : Ensure OpenSSH server is installed] *******************************************************************
+2026-03-11 16:56:54,142 p=3341 u=oracle n=ansible | ok: [debian1.lab]
+2026-03-11 16:56:57,318 p=3341 u=oracle n=ansible | fatal: [redhat1.lab]: FAILED! => {"changed": false, "msg": "Failed to download metadata for repo 'BaseOS': Cannot download repomd.xml: Cannot download repodata/repomd.xml: All mirrors were tried", "rc": 1, "results": []}
+2026-03-11 16:56:57,347 p=3341 u=oracle n=ansible | TASK [ssh_hardening : Create sshd_config backup] ****************************************************************************
+2026-03-11 16:56:59,001 p=3341 u=oracle n=ansible | changed: [debian1.lab]
+2026-03-11 16:56:59,027 p=3341 u=oracle n=ansible | TASK [ssh_hardening : Configure SSH daemon] *********************************************************************************
+2026-03-11 16:57:00,864 p=3341 u=oracle n=ansible | changed: [debian1.lab]
+2026-03-11 16:57:00,892 p=3341 u=oracle n=ansible | TASK [ssh_hardening : Ensure SSH service is running] ************************************************************************
+2026-03-11 16:57:04,045 p=3341 u=oracle n=ansible | ok: [debian1.lab]
+2026-03-11 16:57:04,132 p=3341 u=oracle n=ansible | RUNNING HANDLER [ssh_hardening : Restart SSH service] ***********************************************************************
+2026-03-11 16:57:06,363 p=3341 u=oracle n=ansible | changed: [debian1.lab]
+2026-03-11 16:57:06,421 p=3341 u=oracle n=ansible | PLAY RECAP ******************************************************************************************************************
+2026-03-11 16:57:06,422 p=3341 u=oracle n=ansible | debian1.lab                : ok=6    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-03-11 16:57:06,423 p=3341 u=oracle n=ansible | redhat1.lab                : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-03-11 16:59:48,452 p=3464 u=oracle n=ansible | PLAY [Automated Linux Server Hardening Pipeline] ****************************************************************************
+2026-03-11 16:59:48,501 p=3464 u=oracle n=ansible | TASK [Gathering Facts] ******************************************************************************************************
+2026-03-11 16:59:53,616 p=3464 u=oracle n=ansible | [WARNING]: Distribution parrot 5.3 on host debian1.lab should use /usr/bin/python, but is using /usr/bin/python3.9, since
+the discovered platform python interpreter was not present. See https://docs.ansible.com/ansible-
+core/2.14/reference_appendices/interpreter_discovery.html for more information.
+
+2026-03-11 16:59:53,617 p=3464 u=oracle n=ansible | ok: [debian1.lab]
+2026-03-11 16:59:54,960 p=3464 u=oracle n=ansible | ok: [redhat1.lab]
+2026-03-11 16:59:55,068 p=3464 u=oracle n=ansible | TASK [ssh_hardening : Ensure OpenSSH server is installed] *******************************************************************
+2026-03-11 16:59:58,209 p=3464 u=oracle n=ansible | fatal: [debian1.lab]: FAILED! => {"changed": false, "msg": "value of state must be one of: reloaded, restarted, started, stopped, got: present"}
+2026-03-11 16:59:58,913 p=3464 u=oracle n=ansible | fatal: [redhat1.lab]: FAILED! => {"changed": false, "msg": "value of state must be one of: reloaded, restarted, started, stopped, got: present"}
+2026-03-11 16:59:58,919 p=3464 u=oracle n=ansible | PLAY RECAP ******************************************************************************************************************
+2026-03-11 16:59:58,920 p=3464 u=oracle n=ansible | debian1.lab                : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-03-11 16:59:58,922 p=3464 u=oracle n=ansible | redhat1.lab                : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-03-11 17:01:41,978 p=3544 u=oracle n=ansible | PLAY [Automated Linux Server Hardening Pipeline] ****************************************************************************
+2026-03-11 17:01:42,019 p=3544 u=oracle n=ansible | TASK [Gathering Facts] ******************************************************************************************************
+2026-03-11 17:01:47,205 p=3544 u=oracle n=ansible | [WARNING]: Distribution parrot 5.3 on host debian1.lab should use /usr/bin/python, but is using /usr/bin/python3.9, since
+the discovered platform python interpreter was not present. See https://docs.ansible.com/ansible-
+core/2.14/reference_appendices/interpreter_discovery.html for more information.
+
+2026-03-11 17:01:47,207 p=3544 u=oracle n=ansible | ok: [debian1.lab]
+2026-03-11 17:01:48,498 p=3544 u=oracle n=ansible | ok: [redhat1.lab]
+2026-03-11 17:01:48,600 p=3544 u=oracle n=ansible | TASK [ssh_hardening : Ensure OpenSSH server is installed] *******************************************************************
+2026-03-11 17:01:51,796 p=3544 u=oracle n=ansible | fatal: [debian1.lab]: FAILED! => {"changed": false, "msg": "value of state must be one of: reloaded, restarted, started, stopped, got: present"}
+2026-03-11 17:01:52,520 p=3544 u=oracle n=ansible | fatal: [redhat1.lab]: FAILED! => {"changed": false, "msg": "value of state must be one of: reloaded, restarted, started, stopped, got: present"}
+2026-03-11 17:01:52,526 p=3544 u=oracle n=ansible | PLAY RECAP ******************************************************************************************************************
+2026-03-11 17:01:52,527 p=3544 u=oracle n=ansible | debian1.lab                : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-03-11 17:01:52,528 p=3544 u=oracle n=ansible | redhat1.lab                : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-03-11 17:02:19,660 p=3597 u=oracle n=ansible | PLAY [Automated Linux Server Hardening Pipeline] ****************************************************************************
+2026-03-11 17:02:19,702 p=3597 u=oracle n=ansible | TASK [Gathering Facts] ******************************************************************************************************
+2026-03-11 17:02:24,233 p=3597 u=oracle n=ansible | [WARNING]: Distribution parrot 5.3 on host debian1.lab should use /usr/bin/python, but is using /usr/bin/python3.9, since
+the discovered platform python interpreter was not present. See https://docs.ansible.com/ansible-
+core/2.14/reference_appendices/interpreter_discovery.html for more information.
+
+2026-03-11 17:02:24,234 p=3597 u=oracle n=ansible | ok: [debian1.lab]
+2026-03-11 17:02:25,493 p=3597 u=oracle n=ansible | ok: [redhat1.lab]
+2026-03-11 17:02:25,604 p=3597 u=oracle n=ansible | TASK [ssh_hardening : Ensure OpenSSH server is installed] *******************************************************************
+2026-03-11 17:02:28,819 p=3597 u=oracle n=ansible | fatal: [debian1.lab]: FAILED! => {"changed": false, "msg": "value of state must be one of: reloaded, restarted, started, stopped, got: present"}
+2026-03-11 17:02:29,462 p=3597 u=oracle n=ansible | fatal: [redhat1.lab]: FAILED! => {"changed": false, "msg": "value of state must be one of: reloaded, restarted, started, stopped, got: present"}
+2026-03-11 17:02:29,468 p=3597 u=oracle n=ansible | PLAY RECAP ******************************************************************************************************************
+2026-03-11 17:02:29,470 p=3597 u=oracle n=ansible | debian1.lab                : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-03-11 17:02:29,471 p=3597 u=oracle n=ansible | redhat1.lab                : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-03-11 17:03:50,144 p=3642 u=oracle n=ansible | PLAY [Automated Linux Server Hardening Pipeline] ****************************************************************************
+2026-03-11 17:03:50,183 p=3642 u=oracle n=ansible | TASK [Gathering Facts] ******************************************************************************************************
+2026-03-11 17:03:55,146 p=3642 u=oracle n=ansible | [WARNING]: Distribution parrot 5.3 on host debian1.lab should use /usr/bin/python, but is using /usr/bin/python3.9, since
+the discovered platform python interpreter was not present. See https://docs.ansible.com/ansible-
+core/2.14/reference_appendices/interpreter_discovery.html for more information.
+
+2026-03-11 17:03:55,148 p=3642 u=oracle n=ansible | ok: [debian1.lab]
+2026-03-11 17:03:56,558 p=3642 u=oracle n=ansible | ok: [redhat1.lab]
+2026-03-11 17:03:56,656 p=3642 u=oracle n=ansible | TASK [ssh_hardening : Ensure OpenSSH server is installed] *******************************************************************
+2026-03-11 17:03:59,857 p=3642 u=oracle n=ansible | fatal: [debian1.lab]: FAILED! => {"changed": false, "msg": "value of state must be one of: reloaded, restarted, started, stopped, got: installed"}
+2026-03-11 17:04:00,546 p=3642 u=oracle n=ansible | fatal: [redhat1.lab]: FAILED! => {"changed": false, "msg": "value of state must be one of: reloaded, restarted, started, stopped, got: installed"}
+2026-03-11 17:04:00,551 p=3642 u=oracle n=ansible | PLAY RECAP ******************************************************************************************************************
+2026-03-11 17:04:00,552 p=3642 u=oracle n=ansible | debian1.lab                : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-03-11 17:04:00,552 p=3642 u=oracle n=ansible | redhat1.lab                : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-03-11 17:04:32,523 p=3693 u=oracle n=ansible | playbook: playbooks/site.yml
+2026-03-11 17:06:12,753 p=3698 u=oracle n=ansible | PLAY [Automated Linux Server Hardening Pipeline] ****************************************************************************
+2026-03-11 17:06:12,797 p=3698 u=oracle n=ansible | TASK [Gathering Facts] ******************************************************************************************************
+2026-03-11 17:06:17,838 p=3698 u=oracle n=ansible | [WARNING]: Distribution parrot 5.3 on host debian1.lab should use /usr/bin/python, but is using /usr/bin/python3.9, since
+the discovered platform python interpreter was not present. See https://docs.ansible.com/ansible-
+core/2.14/reference_appendices/interpreter_discovery.html for more information.
+
+2026-03-11 17:06:17,840 p=3698 u=oracle n=ansible | ok: [debian1.lab]
+2026-03-11 17:06:19,122 p=3698 u=oracle n=ansible | ok: [redhat1.lab]
+2026-03-11 17:06:19,232 p=3698 u=oracle n=ansible | TASK [ssh_hardening : Ensure OpenSSH server is installed] *******************************************************************
+2026-03-11 17:06:21,844 p=3698 u=oracle n=ansible | fatal: [debian1.lab]: FAILED! => {"changed": false, "msg": "value of state must be one of: absent, build-dep, fixed, latest, present, got: installed"}
+2026-03-11 17:06:26,169 p=3698 u=oracle n=ansible | fatal: [redhat1.lab]: FAILED! => {"changed": false, "msg": "Failed to download metadata for repo 'BaseOS': Cannot download repomd.xml: Cannot download repodata/repomd.xml: All mirrors were tried", "rc": 1, "results": []}
+2026-03-11 17:06:26,174 p=3698 u=oracle n=ansible | PLAY RECAP ******************************************************************************************************************
+2026-03-11 17:06:26,174 p=3698 u=oracle n=ansible | debian1.lab                : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-03-11 17:06:26,175 p=3698 u=oracle n=ansible | redhat1.lab                : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-03-11 17:06:58,576 p=3749 u=oracle n=ansible | PLAY [Automated Linux Server Hardening Pipeline] ****************************************************************************
+2026-03-11 17:06:58,617 p=3749 u=oracle n=ansible | TASK [Gathering Facts] ******************************************************************************************************
+2026-03-11 17:07:03,239 p=3749 u=oracle n=ansible | [WARNING]: Distribution parrot 5.3 on host debian1.lab should use /usr/bin/python, but is using /usr/bin/python3.9, since
+the discovered platform python interpreter was not present. See https://docs.ansible.com/ansible-
+core/2.14/reference_appendices/interpreter_discovery.html for more information.
+
+2026-03-11 17:07:03,240 p=3749 u=oracle n=ansible | ok: [debian1.lab]
+2026-03-11 17:07:04,562 p=3749 u=oracle n=ansible | ok: [redhat1.lab]
+2026-03-11 17:07:04,667 p=3749 u=oracle n=ansible | TASK [ssh_hardening : Ensure OpenSSH server is installed] *******************************************************************
+2026-03-11 17:07:08,478 p=3749 u=oracle n=ansible | ok: [debian1.lab]
+2026-03-11 17:07:11,607 p=3749 u=oracle n=ansible | fatal: [redhat1.lab]: FAILED! => {"changed": false, "msg": "Failed to download metadata for repo 'BaseOS': Cannot download repomd.xml: Cannot download repodata/repomd.xml: All mirrors were tried", "rc": 1, "results": []}
+2026-03-11 17:07:11,644 p=3749 u=oracle n=ansible | TASK [ssh_hardening : Create sshd_config backup] ****************************************************************************
+2026-03-11 17:07:13,321 p=3749 u=oracle n=ansible | changed: [debian1.lab]
+2026-03-11 17:07:13,349 p=3749 u=oracle n=ansible | TASK [ssh_hardening : Configure SSH daemon] *********************************************************************************
+2026-03-11 17:07:15,123 p=3749 u=oracle n=ansible | changed: [debian1.lab]
+2026-03-11 17:07:15,153 p=3749 u=oracle n=ansible | TASK [ssh_hardening : Ensure SSH service is running] ************************************************************************
+2026-03-11 17:07:18,305 p=3749 u=oracle n=ansible | ok: [debian1.lab]
+2026-03-11 17:07:18,392 p=3749 u=oracle n=ansible | RUNNING HANDLER [ssh_hardening : Restart SSH service] ***********************************************************************
+2026-03-11 17:07:20,500 p=3749 u=oracle n=ansible | changed: [debian1.lab]
+2026-03-11 17:07:20,552 p=3749 u=oracle n=ansible | PLAY RECAP ******************************************************************************************************************
+2026-03-11 17:07:20,552 p=3749 u=oracle n=ansible | debian1.lab                : ok=6    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-03-11 17:07:20,553 p=3749 u=oracle n=ansible | redhat1.lab                : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-03-11 17:07:54,044 p=3833 u=oracle n=ansible | ERROR! this task 'systemctl' has extra params, which is only allowed in the following modules: include, ansible.legacy.import_tasks, ansible.legacy.command, ansible.legacy.win_command, ansible.builtin.import_tasks, raw, ansible.builtin.shell, ansible.legacy.script, command, ansible.legacy.raw, ansible.windows.win_command, ansible.builtin.include, win_command, ansible.legacy.set_fact, ansible.legacy.include, ansible.builtin.add_host, shell, ansible.legacy.include_role, ansible.builtin.include_vars, ansible.legacy.include_vars, group_by, ansible.builtin.group_by, ansible.builtin.include_role, ansible.windows.win_shell, include_vars, win_shell, script, meta, ansible.builtin.import_role, ansible.builtin.raw, include_role, ansible.legacy.win_shell, import_tasks, ansible.legacy.add_host, set_fact, ansible.builtin.script, ansible.legacy.group_by, ansible.legacy.shell, ansible.legacy.import_role, ansible.legacy.include_tasks, ansible.builtin.command, add_host, ansible.builtin.win_command, include_tasks, ansible.builtin.meta, ansible.builtin.set_fact, ansible.builtin.win_shell, ansible.builtin.include_tasks, ansible.legacy.meta, import_role
+2026-03-11 20:48:00,203 p=3950 u=oracle n=ansible | PLAY [Automated Linux Server Hardening Pipeline] ****************************************************************************
+2026-03-11 20:48:00,252 p=3950 u=oracle n=ansible | TASK [Gathering Facts] ******************************************************************************************************
+2026-03-11 20:48:06,479 p=3950 u=oracle n=ansible | [WARNING]: Distribution parrot 5.3 on host debian1.lab should use /usr/bin/python, but is using /usr/bin/python3.9, since
+the discovered platform python interpreter was not present. See https://docs.ansible.com/ansible-
+core/2.14/reference_appendices/interpreter_discovery.html for more information.
+
+2026-03-11 20:48:06,480 p=3950 u=oracle n=ansible | ok: [debian1.lab]
+2026-03-11 20:48:07,653 p=3950 u=oracle n=ansible | ok: [redhat1.lab]
+2026-03-11 20:48:07,761 p=3950 u=oracle n=ansible | TASK [ssh_hardening : Ensure OpenSSH server is installed] *******************************************************************
+2026-03-11 20:48:11,899 p=3950 u=oracle n=ansible | ok: [debian1.lab]
+2026-03-11 20:48:16,462 p=3950 u=oracle n=ansible | ok: [redhat1.lab]
+2026-03-11 20:48:16,503 p=3950 u=oracle n=ansible | TASK [ssh_hardening : Create sshd_config backup] ****************************************************************************
+2026-03-11 20:48:18,817 p=3950 u=oracle n=ansible | changed: [debian1.lab]
+2026-03-11 20:48:19,667 p=3950 u=oracle n=ansible | changed: [redhat1.lab]
+2026-03-11 20:48:19,701 p=3950 u=oracle n=ansible | TASK [ssh_hardening : Configure SSH daemon] *********************************************************************************
+2026-03-11 20:48:21,854 p=3950 u=oracle n=ansible | changed: [debian1.lab]
+2026-03-11 20:48:22,676 p=3950 u=oracle n=ansible | changed: [redhat1.lab]
+2026-03-11 20:48:22,714 p=3950 u=oracle n=ansible | TASK [ssh_hardening : Ensure SSH service is running] ************************************************************************
+2026-03-11 20:48:26,493 p=3950 u=oracle n=ansible | ok: [debian1.lab]
+2026-03-11 20:48:27,214 p=3950 u=oracle n=ansible | ok: [redhat1.lab]
+2026-03-11 20:48:27,416 p=3950 u=oracle n=ansible | RUNNING HANDLER [ssh_hardening : Restart SSH service] ***********************************************************************
+2026-03-11 20:48:29,722 p=3950 u=oracle n=ansible | changed: [debian1.lab]
+2026-03-11 20:48:30,754 p=3950 u=oracle n=ansible | changed: [redhat1.lab]
+2026-03-11 20:48:30,866 p=3950 u=oracle n=ansible | PLAY RECAP ******************************************************************************************************************
+2026-03-11 20:48:30,867 p=3950 u=oracle n=ansible | debian1.lab                : ok=6    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-03-11 20:48:30,868 p=3950 u=oracle n=ansible | redhat1.lab                : ok=6    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-03-11 21:08:15,996 p=4105 u=oracle n=ansible | ERROR! 'lineinfile' is not a valid attribute for a Play
+
+The error appears to be in '/home/devops/Server_Hardening_Pipeline/playbooks/verify_hardening.yml': line 2, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+- name: Verify PermitRootLogin is disabled
+  ^ here
+
+2026-03-11 21:11:17,662 p=4123 u=oracle n=ansible | ERROR! 'lineinfile' is not a valid attribute for a Play
+
+The error appears to be in '/home/devops/Server_Hardening_Pipeline/playbooks/verify_hardening.yml': line 1, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: Verify PermitRootLogin is disabled
+  ^ here
+
+2026-03-11 21:15:57,627 p=4129 u=oracle n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  did not find expected key
+
+The error appears to be in '/home/devops/Server_Hardening_Pipeline/playbooks/verify_hardening.yml': line 29, column 7, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+        msg:
+      - "PermitRootLogin no: {{ 'PermitRootLogin no' in lookup('file', '/etc/ssh/sshd_config') }}"
+      ^ here
+We could be wrong, but this one looks like it might be an issue with
+missing quotes. Always quote template expression brackets when they
+start a value. For instance:
+
+    with_items:
+      - {{ foo }}
+
+Should be written as:
+
+    with_items:
+      - "{{ foo }}"
+
+2026-03-11 21:17:19,217 p=4132 u=oracle n=ansible | [WARNING]: While constructing a mapping from
+/home/devops/Server_Hardening_Pipeline/playbooks/verify_hardening.yml, line 21, column 7, found a duplicate dict
+key (name). Using last defined value only.
+
+2026-03-11 21:17:19,384 p=4132 u=oracle n=ansible | ERROR! conflicting action statements: systemd, state
+
+The error appears to be in '/home/devops/Server_Hardening_Pipeline/playbooks/verify_hardening.yml': line 21, column 7, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+    - name: Check if SSH daemon is active
+      ^ here
+
+2026-03-11 21:17:49,134 p=4135 u=oracle n=ansible | PLAY [Verify SSH Hardening Controls] *****************************************************************************
+2026-03-11 21:17:49,181 p=4135 u=oracle n=ansible | TASK [Gathering Facts] *******************************************************************************************
+2026-03-11 21:17:54,750 p=4135 u=oracle n=ansible | [WARNING]: Distribution parrot 5.3 on host debian1.lab should use /usr/bin/python, but is using
+/usr/bin/python3.9, since the discovered platform python interpreter was not present. See
+https://docs.ansible.com/ansible-core/2.14/reference_appendices/interpreter_discovery.html for more information.
+
+2026-03-11 21:17:54,753 p=4135 u=oracle n=ansible | ok: [debian1.lab]
+2026-03-11 21:17:56,331 p=4135 u=oracle n=ansible | ok: [redhat1.lab]
+2026-03-11 21:17:56,455 p=4135 u=oracle n=ansible | TASK [Verify PermitRootLogin is disabled] ************************************************************************
+2026-03-11 21:17:58,481 p=4135 u=oracle n=ansible | fatal: [debian1.lab]: FAILED! => {"changed": false, "msg": "line is required with state=present"}
+2026-03-11 21:17:59,342 p=4135 u=oracle n=ansible | fatal: [redhat1.lab]: FAILED! => {"changed": false, "msg": "line is required with state=present"}
+2026-03-11 21:17:59,350 p=4135 u=oracle n=ansible | PLAY RECAP *******************************************************************************************************
+2026-03-11 21:17:59,352 p=4135 u=oracle n=ansible | debian1.lab                : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-03-11 21:17:59,352 p=4135 u=oracle n=ansible | redhat1.lab                : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
