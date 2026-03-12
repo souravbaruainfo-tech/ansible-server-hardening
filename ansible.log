@@ -462,3 +462,197 @@ https://docs.ansible.com/ansible-core/2.14/reference_appendices/interpreter_disc
 2026-03-11 21:17:59,350 p=4135 u=oracle n=ansible | PLAY RECAP *******************************************************************************************************
 2026-03-11 21:17:59,352 p=4135 u=oracle n=ansible | debian1.lab                : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
 2026-03-11 21:17:59,352 p=4135 u=oracle n=ansible | redhat1.lab                : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-03-12 00:11:39,831 p=5874 u=oracle n=ansible | PLAY [Automated Linux Server Hardening Pipeline] **********************************
+2026-03-12 00:11:39,868 p=5874 u=oracle n=ansible | TASK [Gathering Facts] ************************************************************
+2026-03-12 00:11:44,812 p=5874 u=oracle n=ansible | ok: [redhat1.lab]
+2026-03-12 00:11:45,249 p=5874 u=oracle n=ansible | [WARNING]: Distribution parrot 5.3 on host debian1.lab should use /usr/bin/python,
+but is using /usr/bin/python3.9, since the discovered platform python interpreter
+was not present. See https://docs.ansible.com/ansible-
+core/2.14/reference_appendices/interpreter_discovery.html for more information.
+
+2026-03-12 00:11:45,250 p=5874 u=oracle n=ansible | ok: [debian1.lab]
+2026-03-12 00:11:45,331 p=5874 u=oracle n=ansible | TASK [ssh_hardening : Ensure OpenSSH server is installed] *************************
+2026-03-12 00:11:49,597 p=5874 u=oracle n=ansible | ok: [debian1.lab]
+2026-03-12 00:11:52,374 p=5874 u=oracle n=ansible | ok: [redhat1.lab]
+2026-03-12 00:11:52,399 p=5874 u=oracle n=ansible | TASK [ssh_hardening : Create sshd_config backup] **********************************
+2026-03-12 00:11:54,295 p=5874 u=oracle n=ansible | changed: [debian1.lab]
+2026-03-12 00:11:54,402 p=5874 u=oracle n=ansible | changed: [redhat1.lab]
+2026-03-12 00:11:54,427 p=5874 u=oracle n=ansible | TASK [ssh_hardening : Configure SSH daemon] ***************************************
+2026-03-12 00:11:56,268 p=5874 u=oracle n=ansible | changed: [debian1.lab]
+2026-03-12 00:11:56,414 p=5874 u=oracle n=ansible | changed: [redhat1.lab]
+2026-03-12 00:11:56,435 p=5874 u=oracle n=ansible | TASK [ssh_hardening : Ensure SSH service is running] ******************************
+2026-03-12 00:11:59,352 p=5874 u=oracle n=ansible | ok: [redhat1.lab]
+2026-03-12 00:11:59,542 p=5874 u=oracle n=ansible | ok: [debian1.lab]
+2026-03-12 00:11:59,637 p=5874 u=oracle n=ansible | RUNNING HANDLER [ssh_hardening : Restart SSH service] *****************************
+2026-03-12 00:12:01,779 p=5874 u=oracle n=ansible | changed: [redhat1.lab]
+2026-03-12 00:12:01,902 p=5874 u=oracle n=ansible | changed: [debian1.lab]
+2026-03-12 00:12:01,971 p=5874 u=oracle n=ansible | PLAY RECAP ************************************************************************
+2026-03-12 00:12:01,972 p=5874 u=oracle n=ansible | debian1.lab                : ok=6    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-03-12 00:12:01,972 p=5874 u=oracle n=ansible | redhat1.lab                : ok=6    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-03-12 00:12:29,598 p=5999 u=oracle n=ansible | ERROR! the playbook: playbooks/site.yml--tags could not be found
+2026-03-12 00:13:58,353 p=6035 u=oracle n=ansible | PLAY [Automated Linux Server Hardening Pipeline] **********************************
+2026-03-12 00:13:58,410 p=6035 u=oracle n=ansible | TASK [Gathering Facts] ************************************************************
+2026-03-12 00:14:00,950 p=6035 u=oracle n=ansible |  [ERROR]: User interrupted execution
+
+2026-03-12 00:14:05,986 p=6056 u=oracle n=ansible | PLAY [Automated Linux Server Hardening Pipeline] **********************************
+2026-03-12 00:14:06,034 p=6056 u=oracle n=ansible | TASK [Gathering Facts] ************************************************************
+2026-03-12 00:14:12,688 p=6056 u=oracle n=ansible | ok: [redhat1.lab]
+2026-03-12 00:14:12,950 p=6056 u=oracle n=ansible | [WARNING]: Distribution parrot 5.3 on host debian1.lab should use /usr/bin/python,
+but is using /usr/bin/python3.9, since the discovered platform python interpreter
+was not present. See https://docs.ansible.com/ansible-
+core/2.14/reference_appendices/interpreter_discovery.html for more information.
+
+2026-03-12 00:14:12,951 p=6056 u=oracle n=ansible | ok: [debian1.lab]
+2026-03-12 00:14:13,323 p=6056 u=oracle n=ansible | PLAY RECAP ************************************************************************
+2026-03-12 00:14:13,324 p=6056 u=oracle n=ansible | debian1.lab                : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-03-12 00:14:13,325 p=6056 u=oracle n=ansible | redhat1.lab                : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-03-12 00:15:11,362 p=6083 u=oracle n=ansible | PLAY [Automated Linux Server Hardening Pipeline] **********************************
+2026-03-12 00:15:11,426 p=6083 u=oracle n=ansible | TASK [Gathering Facts] ************************************************************
+2026-03-12 00:15:17,954 p=6083 u=oracle n=ansible | ok: [redhat1.lab]
+2026-03-12 00:15:18,598 p=6083 u=oracle n=ansible | [WARNING]: Distribution parrot 5.3 on host debian1.lab should use /usr/bin/python,
+but is using /usr/bin/python3.9, since the discovered platform python interpreter
+was not present. See https://docs.ansible.com/ansible-
+core/2.14/reference_appendices/interpreter_discovery.html for more information.
+
+2026-03-12 00:15:18,599 p=6083 u=oracle n=ansible | ok: [debian1.lab]
+2026-03-12 00:15:18,973 p=6083 u=oracle n=ansible | PLAY RECAP ************************************************************************
+2026-03-12 00:15:18,974 p=6083 u=oracle n=ansible | debian1.lab                : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-03-12 00:15:18,974 p=6083 u=oracle n=ansible | redhat1.lab                : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-03-12 00:15:34,997 p=6110 u=oracle n=ansible | PLAY [Automated Linux Server Hardening Pipeline] **********************************
+2026-03-12 00:15:35,046 p=6110 u=oracle n=ansible | TASK [Gathering Facts] ************************************************************
+2026-03-12 00:15:41,361 p=6110 u=oracle n=ansible | ok: [redhat1.lab]
+2026-03-12 00:15:42,052 p=6110 u=oracle n=ansible | [WARNING]: Distribution parrot 5.3 on host debian1.lab should use /usr/bin/python,
+but is using /usr/bin/python3.9, since the discovered platform python interpreter
+was not present. See https://docs.ansible.com/ansible-
+core/2.14/reference_appendices/interpreter_discovery.html for more information.
+
+2026-03-12 00:15:42,052 p=6110 u=oracle n=ansible | ok: [debian1.lab]
+2026-03-12 00:15:42,198 p=6110 u=oracle n=ansible | TASK [ssh_hardening : Ensure OpenSSH server is installed] *************************
+2026-03-12 00:15:48,361 p=6110 u=oracle n=ansible | ok: [debian1.lab]
+2026-03-12 00:15:50,658 p=6110 u=oracle n=ansible | ok: [redhat1.lab]
+2026-03-12 00:15:50,694 p=6110 u=oracle n=ansible | TASK [ssh_hardening : Create sshd_config backup] **********************************
+2026-03-12 00:15:53,528 p=6110 u=oracle n=ansible | changed: [debian1.lab]
+2026-03-12 00:15:53,717 p=6110 u=oracle n=ansible | changed: [redhat1.lab]
+2026-03-12 00:15:53,752 p=6110 u=oracle n=ansible | TASK [ssh_hardening : Configure SSH daemon] ***************************************
+2026-03-12 00:15:56,596 p=6110 u=oracle n=ansible | changed: [debian1.lab]
+2026-03-12 00:15:56,767 p=6110 u=oracle n=ansible | changed: [redhat1.lab]
+2026-03-12 00:15:56,802 p=6110 u=oracle n=ansible | TASK [ssh_hardening : Ensure SSH service is running] ******************************
+2026-03-12 00:16:01,359 p=6110 u=oracle n=ansible | ok: [redhat1.lab]
+2026-03-12 00:16:01,449 p=6110 u=oracle n=ansible | ok: [debian1.lab]
+2026-03-12 00:16:01,623 p=6110 u=oracle n=ansible | RUNNING HANDLER [ssh_hardening : Restart SSH service] *****************************
+2026-03-12 00:16:04,940 p=6110 u=oracle n=ansible | changed: [debian1.lab]
+2026-03-12 00:16:04,945 p=6110 u=oracle n=ansible | changed: [redhat1.lab]
+2026-03-12 00:16:05,041 p=6110 u=oracle n=ansible | PLAY RECAP ************************************************************************
+2026-03-12 00:16:05,042 p=6110 u=oracle n=ansible | debian1.lab                : ok=6    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-03-12 00:16:05,042 p=6110 u=oracle n=ansible | redhat1.lab                : ok=6    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-03-12 00:17:14,956 p=6249 u=oracle n=ansible | [WARNING]: Collection community.general does not support Ansible version 2.14.18
+
+2026-03-12 00:17:15,059 p=6249 u=oracle n=ansible | PLAY [Automated Linux Server Hardening Pipeline] **********************************
+2026-03-12 00:17:15,121 p=6249 u=oracle n=ansible | TASK [Gathering Facts] ************************************************************
+2026-03-12 00:17:22,464 p=6249 u=oracle n=ansible | ok: [redhat1.lab]
+2026-03-12 00:17:22,955 p=6249 u=oracle n=ansible | [WARNING]: Distribution parrot 5.3 on host debian1.lab should use /usr/bin/python,
+but is using /usr/bin/python3.9, since the discovered platform python interpreter
+was not present. See https://docs.ansible.com/ansible-
+core/2.14/reference_appendices/interpreter_discovery.html for more information.
+
+2026-03-12 00:17:22,956 p=6249 u=oracle n=ansible | ok: [debian1.lab]
+2026-03-12 00:17:23,083 p=6249 u=oracle n=ansible | TASK [ssh_hardening : Ensure OpenSSH server is installed] *************************
+2026-03-12 00:17:29,543 p=6249 u=oracle n=ansible | ok: [debian1.lab]
+2026-03-12 00:17:31,632 p=6249 u=oracle n=ansible | ok: [redhat1.lab]
+2026-03-12 00:17:31,668 p=6249 u=oracle n=ansible | TASK [ssh_hardening : Create sshd_config backup] **********************************
+2026-03-12 00:17:34,499 p=6249 u=oracle n=ansible | changed: [debian1.lab]
+2026-03-12 00:17:34,735 p=6249 u=oracle n=ansible | changed: [redhat1.lab]
+2026-03-12 00:17:34,767 p=6249 u=oracle n=ansible | TASK [ssh_hardening : Configure SSH daemon] ***************************************
+2026-03-12 00:17:37,687 p=6249 u=oracle n=ansible | changed: [debian1.lab]
+2026-03-12 00:17:37,872 p=6249 u=oracle n=ansible | changed: [redhat1.lab]
+2026-03-12 00:17:37,909 p=6249 u=oracle n=ansible | TASK [ssh_hardening : Ensure SSH service is running] ******************************
+2026-03-12 00:17:42,948 p=6249 u=oracle n=ansible | ok: [redhat1.lab]
+2026-03-12 00:17:43,074 p=6249 u=oracle n=ansible | ok: [debian1.lab]
+2026-03-12 00:17:43,166 p=6249 u=oracle n=ansible | TASK [firewall : Install firewalld] ***********************************************
+2026-03-12 00:17:43,294 p=6249 u=oracle n=ansible | skipping: [debian1.lab]
+2026-03-12 00:17:50,921 p=6249 u=oracle n=ansible | ok: [redhat1.lab]
+2026-03-12 00:17:50,955 p=6249 u=oracle n=ansible | TASK [firewall : Enable firewalld service] ****************************************
+2026-03-12 00:17:51,089 p=6249 u=oracle n=ansible | skipping: [debian1.lab]
+2026-03-12 00:17:54,320 p=6249 u=oracle n=ansible | ok: [redhat1.lab]
+2026-03-12 00:17:54,362 p=6249 u=oracle n=ansible | TASK [firewall : Add SSH service to the firewalld] ********************************
+2026-03-12 00:17:54,496 p=6249 u=oracle n=ansible | skipping: [debian1.lab]
+2026-03-12 00:17:59,732 p=6249 u=oracle n=ansible | ok: [redhat1.lab]
+2026-03-12 00:17:59,768 p=6249 u=oracle n=ansible | TASK [firewall : Set firewalld default zone to public] ****************************
+2026-03-12 00:17:59,885 p=6249 u=oracle n=ansible | skipping: [debian1.lab]
+2026-03-12 00:18:03,631 p=6249 u=oracle n=ansible | ok: [redhat1.lab]
+2026-03-12 00:18:03,669 p=6249 u=oracle n=ansible | TASK [firewall : Reload firewalld] ************************************************
+2026-03-12 00:18:03,791 p=6249 u=oracle n=ansible | skipping: [debian1.lab]
+2026-03-12 00:18:06,801 p=6249 u=oracle n=ansible | fatal: [redhat1.lab]: FAILED! => {"changed": false, "msg": "value of state must be one of: reloaded, restarted, started, stopped, got: reload"}
+2026-03-12 00:18:06,829 p=6249 u=oracle n=ansible | TASK [firewall : Install UFW] *****************************************************
+2026-03-12 00:18:11,981 p=6249 u=oracle n=ansible | ok: [debian1.lab]
+2026-03-12 00:18:12,011 p=6249 u=oracle n=ansible | TASK [firewall : Enable ufw service] **********************************************
+2026-03-12 00:18:15,522 p=6249 u=oracle n=ansible | ok: [debian1.lab]
+2026-03-12 00:18:15,556 p=6249 u=oracle n=ansible | TASK [firewall : Add SSH service to the ufw] **************************************
+2026-03-12 00:18:20,011 p=6249 u=oracle n=ansible | changed: [debian1.lab]
+2026-03-12 00:18:20,048 p=6249 u=oracle n=ansible | TASK [firewall : Set ufw default policy to deny inbound] **************************
+2026-03-12 00:18:22,761 p=6249 u=oracle n=ansible | changed: [debian1.lab]
+2026-03-12 00:18:22,801 p=6249 u=oracle n=ansible | TASK [firewall : Set ufw default policy to allow outbound] ************************
+2026-03-12 00:18:24,989 p=6249 u=oracle n=ansible | fatal: [debian1.lab]: FAILED! => {"changed": false, "msg": "value of direction must be one of: in, incoming, out, outgoing, routed, got: outbound"}
+2026-03-12 00:18:24,995 p=6249 u=oracle n=ansible | PLAY RECAP ************************************************************************
+2026-03-12 00:18:24,996 p=6249 u=oracle n=ansible | debian1.lab                : ok=9    changed=4    unreachable=0    failed=1    skipped=5    rescued=0    ignored=0   
+2026-03-12 00:18:24,997 p=6249 u=oracle n=ansible | redhat1.lab                : ok=9    changed=2    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-03-12 00:20:25,575 p=6509 u=oracle n=ansible | ERROR! the playbook: tags could not be found
+2026-03-12 00:20:44,331 p=6511 u=oracle n=ansible | [WARNING]: Collection community.general does not support Ansible version 2.14.18
+
+2026-03-12 00:20:44,433 p=6511 u=oracle n=ansible | PLAY [Automated Linux Server Hardening Pipeline] **********************************
+2026-03-12 00:20:44,493 p=6511 u=oracle n=ansible | TASK [Gathering Facts] ************************************************************
+2026-03-12 00:20:50,040 p=6511 u=oracle n=ansible | [WARNING]: Distribution parrot 5.3 on host debian1.lab should use /usr/bin/python,
+but is using /usr/bin/python3.9, since the discovered platform python interpreter
+was not present. See https://docs.ansible.com/ansible-
+core/2.14/reference_appendices/interpreter_discovery.html for more information.
+
+2026-03-12 00:20:50,041 p=6511 u=oracle n=ansible | ok: [debian1.lab]
+2026-03-12 00:20:51,486 p=6511 u=oracle n=ansible | ok: [redhat1.lab]
+2026-03-12 00:20:51,680 p=6511 u=oracle n=ansible | TASK [ssh_hardening : Ensure OpenSSH server is installed] *************************
+2026-03-12 00:20:56,061 p=6511 u=oracle n=ansible | ok: [debian1.lab]
+2026-03-12 00:21:00,004 p=6511 u=oracle n=ansible | ok: [redhat1.lab]
+2026-03-12 00:21:00,041 p=6511 u=oracle n=ansible | TASK [ssh_hardening : Create sshd_config backup] **********************************
+2026-03-12 00:21:02,015 p=6511 u=oracle n=ansible | changed: [debian1.lab]
+2026-03-12 00:21:02,889 p=6511 u=oracle n=ansible | changed: [redhat1.lab]
+2026-03-12 00:21:02,933 p=6511 u=oracle n=ansible | TASK [ssh_hardening : Configure SSH daemon] ***************************************
+2026-03-12 00:21:05,031 p=6511 u=oracle n=ansible | changed: [debian1.lab]
+2026-03-12 00:21:05,877 p=6511 u=oracle n=ansible | changed: [redhat1.lab]
+2026-03-12 00:21:05,918 p=6511 u=oracle n=ansible | TASK [ssh_hardening : Ensure SSH service is running] ******************************
+2026-03-12 00:21:09,427 p=6511 u=oracle n=ansible | ok: [debian1.lab]
+2026-03-12 00:21:10,211 p=6511 u=oracle n=ansible | ok: [redhat1.lab]
+2026-03-12 00:21:10,292 p=6511 u=oracle n=ansible | TASK [firewall : Install firewalld] ***********************************************
+2026-03-12 00:21:10,416 p=6511 u=oracle n=ansible | skipping: [debian1.lab]
+2026-03-12 00:21:17,053 p=6511 u=oracle n=ansible | ok: [redhat1.lab]
+2026-03-12 00:21:17,083 p=6511 u=oracle n=ansible | TASK [firewall : Enable firewalld service] ****************************************
+2026-03-12 00:21:17,194 p=6511 u=oracle n=ansible | skipping: [debian1.lab]
+2026-03-12 00:21:20,300 p=6511 u=oracle n=ansible | ok: [redhat1.lab]
+2026-03-12 00:21:20,333 p=6511 u=oracle n=ansible | TASK [firewall : Add SSH service to the firewalld] ********************************
+2026-03-12 00:21:20,443 p=6511 u=oracle n=ansible | skipping: [debian1.lab]
+2026-03-12 00:21:24,263 p=6511 u=oracle n=ansible | ok: [redhat1.lab]
+2026-03-12 00:21:24,296 p=6511 u=oracle n=ansible | TASK [firewall : Set firewalld default zone to public] ****************************
+2026-03-12 00:21:24,405 p=6511 u=oracle n=ansible | skipping: [debian1.lab]
+2026-03-12 00:21:28,073 p=6511 u=oracle n=ansible | ok: [redhat1.lab]
+2026-03-12 00:21:28,107 p=6511 u=oracle n=ansible | TASK [firewall : Reload firewalld] ************************************************
+2026-03-12 00:21:28,228 p=6511 u=oracle n=ansible | skipping: [debian1.lab]
+2026-03-12 00:21:31,264 p=6511 u=oracle n=ansible | changed: [redhat1.lab]
+2026-03-12 00:21:31,298 p=6511 u=oracle n=ansible | TASK [firewall : Install UFW] *****************************************************
+2026-03-12 00:21:31,377 p=6511 u=oracle n=ansible | skipping: [redhat1.lab]
+2026-03-12 00:21:34,339 p=6511 u=oracle n=ansible | ok: [debian1.lab]
+2026-03-12 00:21:34,372 p=6511 u=oracle n=ansible | TASK [firewall : Enable ufw service] **********************************************
+2026-03-12 00:21:34,450 p=6511 u=oracle n=ansible | skipping: [redhat1.lab]
+2026-03-12 00:21:36,726 p=6511 u=oracle n=ansible | ok: [debian1.lab]
+2026-03-12 00:21:36,756 p=6511 u=oracle n=ansible | TASK [firewall : Add SSH service to the ufw] **************************************
+2026-03-12 00:21:36,829 p=6511 u=oracle n=ansible | skipping: [redhat1.lab]
+2026-03-12 00:21:39,687 p=6511 u=oracle n=ansible | changed: [debian1.lab]
+2026-03-12 00:21:39,717 p=6511 u=oracle n=ansible | TASK [firewall : Set ufw default policy to deny inbound] **************************
+2026-03-12 00:21:39,794 p=6511 u=oracle n=ansible | skipping: [redhat1.lab]
+2026-03-12 00:21:41,847 p=6511 u=oracle n=ansible | changed: [debian1.lab]
+2026-03-12 00:21:41,878 p=6511 u=oracle n=ansible | TASK [firewall : Set ufw default policy to allow outbound] ************************
+2026-03-12 00:21:41,952 p=6511 u=oracle n=ansible | skipping: [redhat1.lab]
+2026-03-12 00:21:44,031 p=6511 u=oracle n=ansible | changed: [debian1.lab]
+2026-03-12 00:21:44,201 p=6511 u=oracle n=ansible | RUNNING HANDLER [ssh_hardening : Restart SSH service] *****************************
+2026-03-12 00:21:46,648 p=6511 u=oracle n=ansible | changed: [debian1.lab]
+2026-03-12 00:21:47,539 p=6511 u=oracle n=ansible | changed: [redhat1.lab]
+2026-03-12 00:21:47,642 p=6511 u=oracle n=ansible | PLAY RECAP ************************************************************************
+2026-03-12 00:21:47,643 p=6511 u=oracle n=ansible | debian1.lab                : ok=11   changed=6    unreachable=0    failed=0    skipped=5    rescued=0    ignored=0   
+2026-03-12 00:21:47,644 p=6511 u=oracle n=ansible | redhat1.lab                : ok=11   changed=4    unreachable=0    failed=0    skipped=5    rescued=0    ignored=0   

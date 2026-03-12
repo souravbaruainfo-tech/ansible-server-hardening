@@ -1,0 +1,78 @@
+---
+# Firewall Hardening Role
+# Handles both Debian and RHEL servers
+
+
+- name: Firewall | Install & Enable firewalld (RHEL/CentOS)
+  block:
+     - name: Install firewalld
+       dnf:
+         name: firewalld
+         state: present
+
+     - name: Enable firewalld service
+       systemd:
+         name: firewalld
+         enabled: yes
+         state: started
+
+     - name: Add SSH service to the firewalld
+       firewalld:
+         service: ssh
+         permanent: true
+         state: enabled
+     
+     - name: Set firewalld default zone to public
+       firewalld:
+         zone: public
+         permanent: yes
+         state: present
+
+     - name: Reload firewalld
+       systemd: 
+         name: firewalld
+         state: reloaded
+  
+  when: ansible_os_family == "RedHat"
+  tags:
+    - firewall
+    - firewalld
+
+
+
+- name: Firewall | Install & Enable UFW  (Debian/Ubuntu)
+  block:
+     - name: Install UFW
+       apt:
+         name: ufw
+         state: present
+
+     - name: Enable ufw service
+       systemd:
+         name: ufw
+         enabled: yes
+         state: started
+
+     - name: Add SSH service to the ufw
+       ufw:
+         rule: allow
+         port: '22'
+         proto: tcp
+
+     - name: Set ufw default policy to deny inbound
+       ufw:
+         direction: incoming
+         policy: deny
+         state: enabled
+
+     - name: Set ufw default policy to allow outbound
+       ufw:
+         direction: outgoing
+         policy: allow
+         state: enabled
+
+  when: ansible_os_family == "Debian"
+  tags:
+    - firewall
+    - ufw
+
