@@ -1,0 +1,33 @@
+---
+# User Management Role
+# Role unnecessary users, harden sudo configuration
+
+
+- name: User Management | Remove unnecessary system users
+  user: 
+    name: "{{ item }}"
+    state: absent
+    remove: yes
+
+  loop: 
+    - user1
+    - user2
+    - user3
+  tags:
+    - user_mgnt
+    - remove_users
+  
+
+- name: User Management | Lock unncessary system users
+  user:
+    name: "{{ item }}"
+    password_lock: yes
+  loop:
+    - bin
+    - sys
+
+  ignore_errors: yes
+  tags:
+    - user_mgnt
+    - lock_users
+  
