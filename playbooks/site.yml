@@ -8,3 +8,4 @@
      - firewall
      - user_management
      - audit_logging
+     - system_hardening

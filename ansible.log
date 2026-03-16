@@ -1112,3 +1112,176 @@ core/2.14/reference_appendices/interpreter_discovery.html for more information.
 2026-03-16 14:21:47,718 p=3253 u=oracle n=ansible | PLAY RECAP ******************************************************************************************************************
 2026-03-16 14:21:47,720 p=3253 u=oracle n=ansible | debian1.lab                : ok=4    changed=2    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0   
 2026-03-16 14:21:47,720 p=3253 u=oracle n=ansible | redhat1.lab                : ok=4    changed=0    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0   
+2026-03-16 15:54:37,566 p=3477 u=oracle n=ansible | [WARNING]: Collection community.general does not support Ansible version 2.14.18
+
+2026-03-16 15:54:37,703 p=3477 u=oracle n=ansible | PLAY [Automated Linux Server Hardening Pipeline] ****************************************************************************
+2026-03-16 15:54:37,778 p=3477 u=oracle n=ansible | TASK [Gathering Facts] ******************************************************************************************************
+2026-03-16 15:54:44,689 p=3477 u=oracle n=ansible | [WARNING]: Distribution parrot 5.3 on host debian1.lab should use /usr/bin/python, but is using /usr/bin/python3.9, since
+the discovered platform python interpreter was not present. See https://docs.ansible.com/ansible-
+core/2.14/reference_appendices/interpreter_discovery.html for more information.
+
+2026-03-16 15:54:44,690 p=3477 u=oracle n=ansible | ok: [debian1.lab]
+2026-03-16 15:54:45,790 p=3477 u=oracle n=ansible | ok: [redhat1.lab]
+2026-03-16 15:54:46,126 p=3477 u=oracle n=ansible | TASK [system_hardening : System Hardening | Disable bluetooth] **************************************************************
+2026-03-16 15:54:49,741 p=3477 u=oracle n=ansible | changed: [debian1.lab]
+2026-03-16 15:54:50,488 p=3477 u=oracle n=ansible | changed: [redhat1.lab]
+2026-03-16 15:54:50,529 p=3477 u=oracle n=ansible | TASK [system_hardening : Sytem Hardening | Disable snmpd] *******************************************************************
+2026-03-16 15:54:52,760 p=3477 u=oracle n=ansible | fatal: [debian1.lab]: FAILED! => {"changed": false, "msg": "Could not find the requested service snmpd: host"}
+2026-03-16 15:54:53,764 p=3477 u=oracle n=ansible | fatal: [redhat1.lab]: FAILED! => {"changed": false, "msg": "Could not find the requested service snmpd: host"}
+2026-03-16 15:54:53,769 p=3477 u=oracle n=ansible | PLAY RECAP ******************************************************************************************************************
+2026-03-16 15:54:53,770 p=3477 u=oracle n=ansible | debian1.lab                : ok=2    changed=1    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-03-16 15:54:53,771 p=3477 u=oracle n=ansible | redhat1.lab                : ok=2    changed=1    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-03-16 16:00:09,307 p=3599 u=oracle n=ansible | [WARNING]: Collection community.general does not support Ansible version 2.14.18
+
+2026-03-16 16:00:09,427 p=3599 u=oracle n=ansible | PLAY [Automated Linux Server Hardening Pipeline] ****************************************************************************
+2026-03-16 16:00:09,501 p=3599 u=oracle n=ansible | TASK [Gathering Facts] ******************************************************************************************************
+2026-03-16 16:00:15,828 p=3599 u=oracle n=ansible | [WARNING]: Distribution parrot 5.3 on host debian1.lab should use /usr/bin/python, but is using /usr/bin/python3.9, since
+the discovered platform python interpreter was not present. See https://docs.ansible.com/ansible-
+core/2.14/reference_appendices/interpreter_discovery.html for more information.
+
+2026-03-16 16:00:15,830 p=3599 u=oracle n=ansible | ok: [debian1.lab]
+2026-03-16 16:00:17,063 p=3599 u=oracle n=ansible | ok: [redhat1.lab]
+2026-03-16 16:00:17,389 p=3599 u=oracle n=ansible | TASK [system_hardening : System Hardening | Disable bluetooth] **************************************************************
+2026-03-16 16:00:21,185 p=3599 u=oracle n=ansible | changed: [debian1.lab]
+2026-03-16 16:00:21,836 p=3599 u=oracle n=ansible | changed: [redhat1.lab]
+2026-03-16 16:00:21,866 p=3599 u=oracle n=ansible | TASK [system_hardening : System Hardening | Disable avahi-daemon] ***********************************************************
+2026-03-16 16:00:24,654 p=3599 u=oracle n=ansible | ok: [debian1.lab]
+2026-03-16 16:00:25,615 p=3599 u=oracle n=ansible | fatal: [redhat1.lab]: FAILED! => {"changed": false, "msg": "Could not find the requested service avahi-daemon: host"}
+2026-03-16 16:00:25,645 p=3599 u=oracle n=ansible | TASK [system_hardening : System Hardening | Disable snmpd] ******************************************************************
+2026-03-16 16:00:27,656 p=3599 u=oracle n=ansible | fatal: [debian1.lab]: FAILED! => {"changed": false, "msg": "Could not find the requested service snmpd: host"}
+2026-03-16 16:00:27,662 p=3599 u=oracle n=ansible | PLAY RECAP ******************************************************************************************************************
+2026-03-16 16:00:27,663 p=3599 u=oracle n=ansible | debian1.lab                : ok=3    changed=1    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-03-16 16:00:27,664 p=3599 u=oracle n=ansible | redhat1.lab                : ok=2    changed=1    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-03-16 16:07:00,599 p=3692 u=oracle n=ansible | [WARNING]: Collection community.general does not support Ansible version 2.14.18
+
+2026-03-16 16:07:00,723 p=3692 u=oracle n=ansible | PLAY [Automated Linux Server Hardening Pipeline] ****************************************************************************
+2026-03-16 16:07:00,791 p=3692 u=oracle n=ansible | TASK [Gathering Facts] ******************************************************************************************************
+2026-03-16 16:07:06,898 p=3692 u=oracle n=ansible | [WARNING]: Distribution parrot 5.3 on host debian1.lab should use /usr/bin/python, but is using /usr/bin/python3.9, since
+the discovered platform python interpreter was not present. See https://docs.ansible.com/ansible-
+core/2.14/reference_appendices/interpreter_discovery.html for more information.
+
+2026-03-16 16:07:06,900 p=3692 u=oracle n=ansible | ok: [debian1.lab]
+2026-03-16 16:07:08,115 p=3692 u=oracle n=ansible | ok: [redhat1.lab]
+2026-03-16 16:07:08,395 p=3692 u=oracle n=ansible | TASK [system_hardening : System Hardening | Disable bluetooth] **************************************************************
+2026-03-16 16:07:11,916 p=3692 u=oracle n=ansible | changed: [debian1.lab]
+2026-03-16 16:07:12,601 p=3692 u=oracle n=ansible | changed: [redhat1.lab]
+2026-03-16 16:07:12,633 p=3692 u=oracle n=ansible | TASK [system_hardening : System Hardening | Disable avahi-daemon] ***********************************************************
+2026-03-16 16:07:14,955 p=3692 u=oracle n=ansible | ok: [debian1.lab]
+2026-03-16 16:07:15,868 p=3692 u=oracle n=ansible | fatal: [redhat1.lab]: FAILED! => {"changed": false, "msg": "Could not find the requested service avahi-daemon: host"}
+2026-03-16 16:07:15,896 p=3692 u=oracle n=ansible | TASK [system_hardening : System Hardening | Disable snmpd] ******************************************************************
+2026-03-16 16:07:17,843 p=3692 u=oracle n=ansible | fatal: [debian1.lab]: FAILED! => {"changed": false, "msg": "Could not find the requested service snmpd: host"}
+2026-03-16 16:07:17,851 p=3692 u=oracle n=ansible | PLAY RECAP ******************************************************************************************************************
+2026-03-16 16:07:17,851 p=3692 u=oracle n=ansible | debian1.lab                : ok=3    changed=1    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-03-16 16:07:17,852 p=3692 u=oracle n=ansible | redhat1.lab                : ok=2    changed=1    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-03-16 16:09:13,424 p=3774 u=oracle n=ansible | [WARNING]: Collection community.general does not support Ansible version 2.14.18
+
+2026-03-16 16:09:13,475 p=3774 u=oracle n=ansible | ERROR! conflicting action statements: systemd, loops
+
+The error appears to be in '/home/devops/Server_Hardening_Pipeline/roles/system_hardening/tasks/main.yml': line 5, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: System Hardening | Disable bluetooth, avahi-daemon, snmpd
+  ^ here
+
+2026-03-16 16:09:47,636 p=3778 u=oracle n=ansible | [WARNING]: Collection community.general does not support Ansible version 2.14.18
+
+2026-03-16 16:09:47,680 p=3778 u=oracle n=ansible | ERROR! conflicting action statements: systemd, ignore_error
+
+The error appears to be in '/home/devops/Server_Hardening_Pipeline/roles/system_hardening/tasks/main.yml': line 5, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: System Hardening | Disable bluetooth, avahi-daemon, snmpd
+  ^ here
+
+2026-03-16 16:21:47,063 p=3786 u=oracle n=ansible | [WARNING]: Collection community.general does not support Ansible version 2.14.18
+
+2026-03-16 16:21:47,134 p=3786 u=oracle n=ansible | ERROR! conflicting action statements: systemd, ignore_error
+
+The error appears to be in '/home/devops/Server_Hardening_Pipeline/roles/system_hardening/tasks/main.yml': line 5, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: System Hardening | Disable bluetooth, avahi-daemon, snmpd
+  ^ here
+
+2026-03-16 16:22:43,749 p=3790 u=oracle n=ansible | [WARNING]: Collection community.general does not support Ansible version 2.14.18
+
+2026-03-16 16:22:43,856 p=3790 u=oracle n=ansible | PLAY [Automated Linux Server Hardening Pipeline] ****************************************************************************
+2026-03-16 16:22:43,916 p=3790 u=oracle n=ansible | TASK [Gathering Facts] ******************************************************************************************************
+2026-03-16 16:22:49,854 p=3790 u=oracle n=ansible | [WARNING]: Distribution parrot 5.3 on host debian1.lab should use /usr/bin/python, but is using /usr/bin/python3.9, since
+the discovered platform python interpreter was not present. See https://docs.ansible.com/ansible-
+core/2.14/reference_appendices/interpreter_discovery.html for more information.
+
+2026-03-16 16:22:49,857 p=3790 u=oracle n=ansible | ok: [debian1.lab]
+2026-03-16 16:22:51,297 p=3790 u=oracle n=ansible | ok: [redhat1.lab]
+2026-03-16 16:22:51,567 p=3790 u=oracle n=ansible | TASK [system_hardening : System Hardening | Disable bluetooth, avahi-daemon, snmpd] *****************************************
+2026-03-16 16:22:55,150 p=3790 u=oracle n=ansible | changed: [debian1.lab] => (item=bluetooth)
+2026-03-16 16:22:56,016 p=3790 u=oracle n=ansible | changed: [redhat1.lab] => (item=bluetooth)
+2026-03-16 16:22:57,605 p=3790 u=oracle n=ansible | ok: [debian1.lab] => (item=avahi-daemon)
+2026-03-16 16:22:59,239 p=3790 u=oracle n=ansible | failed: [redhat1.lab] (item=avahi-daemon) => {"ansible_loop_var": "item", "changed": false, "item": "avahi-daemon", "msg": "Could not find the requested service avahi-daemon: host"}
+2026-03-16 16:22:59,932 p=3790 u=oracle n=ansible | failed: [debian1.lab] (item=snmpd) => {"ansible_loop_var": "item", "changed": false, "item": "snmpd", "msg": "Could not find the requested service snmpd: host"}
+2026-03-16 16:22:59,946 p=3790 u=oracle n=ansible | ...ignoring
+2026-03-16 16:23:02,373 p=3790 u=oracle n=ansible | failed: [redhat1.lab] (item=snmpd) => {"ansible_loop_var": "item", "changed": false, "item": "snmpd", "msg": "Could not find the requested service snmpd: host"}
+2026-03-16 16:23:02,381 p=3790 u=oracle n=ansible | ...ignoring
+2026-03-16 16:23:02,601 p=3790 u=oracle n=ansible | PLAY RECAP ******************************************************************************************************************
+2026-03-16 16:23:02,602 p=3790 u=oracle n=ansible | debian1.lab                : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=1   
+2026-03-16 16:23:02,603 p=3790 u=oracle n=ansible | redhat1.lab                : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=1   
+2026-03-16 16:43:56,087 p=3922 u=oracle n=ansible | [WARNING]: Collection community.general does not support Ansible version 2.14.18
+
+2026-03-16 16:43:56,150 p=3922 u=oracle n=ansible | PLAY [Automated Linux Server Hardening Pipeline] ****************************************************************************
+2026-03-16 16:43:56,189 p=3922 u=oracle n=ansible | TASK [Gathering Facts] ******************************************************************************************************
+2026-03-16 16:44:00,056 p=3922 u=oracle n=ansible | [WARNING]: Distribution parrot 5.3 on host debian1.lab should use /usr/bin/python, but is using /usr/bin/python3.9, since
+the discovered platform python interpreter was not present. See https://docs.ansible.com/ansible-
+core/2.14/reference_appendices/interpreter_discovery.html for more information.
+
+2026-03-16 16:44:00,057 p=3922 u=oracle n=ansible | ok: [debian1.lab]
+2026-03-16 16:44:00,847 p=3922 u=oracle n=ansible | ok: [redhat1.lab]
+2026-03-16 16:44:01,038 p=3922 u=oracle n=ansible | TASK [system_hardening : System Hardening | Disable bluetooth, avahi-daemon, snmpd] *****************************************
+2026-03-16 16:44:03,467 p=3922 u=oracle n=ansible | changed: [debian1.lab] => (item=bluetooth)
+2026-03-16 16:44:03,827 p=3922 u=oracle n=ansible | changed: [redhat1.lab] => (item=bluetooth)
+2026-03-16 16:44:04,767 p=3922 u=oracle n=ansible | failed: [debian1.lab] (item=iscsid) => {"ansible_loop_var": "item", "changed": false, "item": "iscsid", "msg": "Could not find the requested service iscsid: host"}
+2026-03-16 16:44:04,772 p=3922 u=oracle n=ansible | ...ignoring
+2026-03-16 16:44:05,809 p=3922 u=oracle n=ansible | ok: [redhat1.lab] => (item=iscsid)
+2026-03-16 16:44:05,933 p=3922 u=oracle n=ansible | PLAY RECAP ******************************************************************************************************************
+2026-03-16 16:44:05,934 p=3922 u=oracle n=ansible | debian1.lab                : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=1   
+2026-03-16 16:44:05,934 p=3922 u=oracle n=ansible | redhat1.lab                : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-03-16 16:47:35,087 p=3992 u=oracle n=ansible | [WARNING]: Collection community.general does not support Ansible version 2.14.18
+
+2026-03-16 16:47:35,155 p=3992 u=oracle n=ansible | PLAY [Automated Linux Server Hardening Pipeline] ****************************************************************************
+2026-03-16 16:47:35,195 p=3992 u=oracle n=ansible | TASK [Gathering Facts] ******************************************************************************************************
+2026-03-16 16:47:38,915 p=3992 u=oracle n=ansible | [WARNING]: Distribution parrot 5.3 on host debian1.lab should use /usr/bin/python, but is using /usr/bin/python3.9, since
+the discovered platform python interpreter was not present. See https://docs.ansible.com/ansible-
+core/2.14/reference_appendices/interpreter_discovery.html for more information.
+
+2026-03-16 16:47:38,916 p=3992 u=oracle n=ansible | ok: [debian1.lab]
+2026-03-16 16:47:39,572 p=3992 u=oracle n=ansible | ok: [redhat1.lab]
+2026-03-16 16:47:39,803 p=3992 u=oracle n=ansible | TASK [system_hardening : System Hardening | Disable bluetooth, avahi-daemon, snmpd] *****************************************
+2026-03-16 16:47:42,257 p=3992 u=oracle n=ansible | changed: [debian1.lab] => (item=bluetooth)
+2026-03-16 16:47:42,718 p=3992 u=oracle n=ansible | changed: [redhat1.lab] => (item=bluetooth)
+2026-03-16 16:47:42,893 p=3992 u=oracle n=ansible | PLAY RECAP ******************************************************************************************************************
+2026-03-16 16:47:42,893 p=3992 u=oracle n=ansible | debian1.lab                : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-03-16 16:47:42,893 p=3992 u=oracle n=ansible | redhat1.lab                : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-03-16 16:48:00,248 p=4043 u=oracle n=ansible | [WARNING]: Collection community.general does not support Ansible version 2.14.18
+
+2026-03-16 16:48:00,314 p=4043 u=oracle n=ansible | PLAY [Automated Linux Server Hardening Pipeline] ****************************************************************************
+2026-03-16 16:48:00,353 p=4043 u=oracle n=ansible | TASK [Gathering Facts] ******************************************************************************************************
+2026-03-16 16:48:03,781 p=4043 u=oracle n=ansible | [WARNING]: Distribution parrot 5.3 on host debian1.lab should use /usr/bin/python, but is using /usr/bin/python3.9, since
+the discovered platform python interpreter was not present. See https://docs.ansible.com/ansible-
+core/2.14/reference_appendices/interpreter_discovery.html for more information.
+
+2026-03-16 16:48:03,782 p=4043 u=oracle n=ansible | ok: [debian1.lab]
+2026-03-16 16:48:04,449 p=4043 u=oracle n=ansible | ok: [redhat1.lab]
+2026-03-16 16:48:04,666 p=4043 u=oracle n=ansible | TASK [system_hardening : System Hardening | Disable bluetooth] **************************************************************
+2026-03-16 16:48:06,834 p=4043 u=oracle n=ansible | changed: [debian1.lab] => (item=bluetooth)
+2026-03-16 16:48:07,423 p=4043 u=oracle n=ansible | changed: [redhat1.lab] => (item=bluetooth)
+2026-03-16 16:48:07,555 p=4043 u=oracle n=ansible | PLAY RECAP ******************************************************************************************************************
+2026-03-16 16:48:07,556 p=4043 u=oracle n=ansible | debian1.lab                : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-03-16 16:48:07,557 p=4043 u=oracle n=ansible | redhat1.lab                : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   

@@ -1,0 +1,15 @@
+---
+# System Hardening Role 
+# Just disable unnecessary services
+
+- name: System Hardening | Disable bluetooth
+  systemd: 
+    name: "{{ item }}"
+    enabled: no
+    state: stopped
+  loop:
+    - bluetooth 
+  tags: 
+    - system_hardening
+
+
