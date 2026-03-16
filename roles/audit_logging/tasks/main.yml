@@ -1,0 +1,48 @@
+---
+# Audit Logging Role 
+# Just install auditd and rsyslog
+
+
+- name: Audit Logging | Install auditd
+  package:
+    name: audit
+    state: installed
+  when: ansible_os_family == 'RedHat'
+  tags:
+    - audit_logging
+
+
+- name: Audit Logging | Install auditd
+  package:
+    name: auditd
+    state: present
+  when: ansible_os_family == 'Debian'
+  tags:
+    - audit_logging
+
+
+- name: Audit Logging | Install rsyslog
+  package:
+    name: rsyslog
+    state: present
+  tags:
+    - audit_logging
+
+
+- name: Audit Logging | Start auditd service
+  package: 
+    name: auditd
+    enabled: yes
+    state: started
+
+
+- name: Audit Logging | Start rsyslog service
+  systemd:
+    name: rsyslog
+    enabled: yes
+    state: started
+  tags:  
+    - audit_logging
+
+
+

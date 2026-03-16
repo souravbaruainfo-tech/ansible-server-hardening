@@ -7,3 +7,4 @@
      - ssh_hardening
      - firewall
      - user_management
+     - audit_logging
